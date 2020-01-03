@@ -42,7 +42,7 @@ class App extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className="App">
                 <h1 id="title">Todo List</h1>
                 <Todos tasks={this.state.tasks} deleteTask={this.deleteTask}/>
                 <AddTask addTask={this.addTask}/>

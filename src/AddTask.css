@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.add-task{
+    width: 100%;
+    margin:auto;
+}
+button{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    border-color: transparent;
+    font-size: 1.8rem;
+    height: 5.8vh;
+    width: 4rem;
+}
+
+input{
+    height: 5vh;
+    width: 77%;
+    font-family:'Roboto';
+    font-size: 1rem;
+}
+
+input:focus{
+    outline: none
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    width: 100%;
+}
+
+#todoButton{
+    width: 11%; 
+    transition: background-color 1s;
+    line-height: 100%;
+}
+
+#todoButton:hover{
+    width: 11%; 
+    background-color: rgb(32, 70, 174);
+}

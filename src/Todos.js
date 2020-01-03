@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './Todos.css'
 const Todos = ({tasks, deleteTask}) => {
 
     

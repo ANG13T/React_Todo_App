@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 .App {
-  text-align: center;
-  width: 100%;
+  width: 60%;
+  margin: auto;
 }
 
 #title{
   text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
 }
 
